@@ -2,13 +2,15 @@
   "ports":{
     ":IN0":{
       "labels":{
-        "10":{"player":0,"name":"P1 SHIELDS"}
+        "8":{"player":0,"name":"Shield"},
+        "10":{"player":0,"name":"Fire"},
       }
     },
     ":IN1":{
       "labels":{
-        "40":{"player":0,"name":"P1 THRUST"},
-        "80":{"player":0,"name":"P1 FIRE"}
+        "20":{"player":0,"name":"Thrust"},
+        "40":{"player":0,"name":"Rotate Right"},
+        "80":{"player":0,"name":"Rotate Left"}
       }
     }
   }
